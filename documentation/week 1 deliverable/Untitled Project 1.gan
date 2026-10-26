@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="CS4433 project-moderated LMS" company="" webLink="http://" view-date="2026-10-02" view-index="0" gantt-divider-location="603" resource-divider-location="300" version="3.3.3316" locale="en_ZA">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd15" name="Notes" width="20" order="0"/>
+        <field id="tpd3" name="Name" width="166" order="0"/>
+        <field id="tpd4" name="Begin date" width="67" order="1"/>
+        <field id="tpd5" name="End date" width="67" order="2"/>
+        <field id="tpd7" name="Completion" width="67" order="3"/>
+        <field id="tpd6" name="Duration" width="67" order="4"/>
+        <field id="tpd9" name="Predecessors" width="168" order="5"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="0" mon="0" tue="0" wed="0" thu="0" fri="0" sat="0"/>
+            <only-show-weekends value="true"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" uid="d76be5067ef047c9acecee6041e47afd" name="Feasibility study" meeting="false" start="2026-10-03" duration="2" complete="0" thirdDate="2026-10-03" thirdDate-constraint="1" expand="true">
+            <depend id="2" type="2" difference="0" hardness="Strong"/>
+            <depend id="3" type="2" difference="0" hardness="Strong"/>
+            <depend id="4" type="2" difference="0" hardness="Strong"/>
+            <depend id="34" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="2" uid="63208b4f5ac84eddb08e8def454acab2" name="Work Breakdown Structure" meeting="false" start="2026-10-05" duration="1" complete="100" expand="true">
+            <depend id="5" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="3" uid="9dae58e11eff42598dba5e664e962c8b" name="Risk Register" meeting="false" start="2026-10-05" duration="1" complete="0" expand="true">
+            <depend id="5" type="1" difference="0" hardness="Strong"/>
+        </task>
+        <task id="4" uid="aded265974064a58873d468c437dfdd1" name="Git repository setup" meeting="false" start="2026-10-05" duration="1" complete="100" thirdDate="2026-10-03" thirdDate-constraint="1" expand="true"/>
+        <task id="5" uid="a88768a9c0f343e3884698a84ea17435" name="Stakeholder analysis and conflicts" meeting="false" start="2026-10-06" duration="2" complete="0" expand="true">
+            <depend id="6" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="6" uid="70b386c6af024903bf31d81e35947d9d" name="SRS(12 functional,6 non-functional)" meeting="false" start="2026-10-08" duration="2" complete="0" expand="true">
+            <depend id="8" type="2" difference="0" hardness="Strong"/>
+            <depend id="9" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="8" uid="3d3cffefca2149768c83a21fff430c7c" name="Use Case Diagram and 3 Specs" meeting="false" start="2026-10-10" duration="2" complete="0" expand="true">
+            <depend id="9" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="9" uid="6ef71918424a47e49a9abc8f0eba06b4" name="Milestone 1" meeting="true" start="2026-10-12" duration="0" complete="0" expand="true">
+            <depend id="10" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="10" uid="f14da952cac5458196f22a3925996c38" name="Architecture, component diagram and rationale" meeting="false" start="2026-10-12" duration="2" complete="0" expand="true">
+            <depend id="11" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="11" uid="ca9318f0e655406bb2298bcbddc68034" name="Class diagram and patterns" meeting="false" start="2026-10-14" duration="2" complete="0" expand="true">
+            <depend id="12" type="2" difference="0" hardness="Strong"/>
+            <depend id="13" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="12" uid="eacf00dfc585449cb033b24eba889ff7" name="State Machine,activity,sequence Diagram" meeting="false" start="2026-10-16" duration="3" complete="0" expand="true">
+            <depend id="14" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="13" uid="302c9eab34604560a7d94ff120f9a113" name="ERD,Data dictionary and SQL schema" meeting="false" start="2026-10-16" duration="2" complete="0" expand="true">
+            <depend id="14" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="14" uid="6a9bdc8356604f05906bec6e3d27412c" name="milestone 2" meeting="true" start="2026-10-19" duration="0" complete="0" expand="true">
+            <depend id="15" type="2" difference="0" hardness="Strong"/>
+            <depend id="22" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="15" uid="aa6188df597743c6a8ab3b89937927bc" name="SQLite Data-access layer" meeting="false" start="2026-10-19" duration="2" complete="0" expand="true">
+            <depend id="16" type="2" difference="0" hardness="Strong"/>
+            <depend id="18" type="2" difference="0" hardness="Strong"/>
+            <depend id="21" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="16" uid="7cb171fa05af4e74bac46ec892b730ed" name="User class hierarchy, factory pattern, password hashing" meeting="false" start="2026-10-21" duration="2" complete="0" expand="true">
+            <depend id="20" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="18" uid="4fa2d4a943cf4924b5076c81d47b2f39" name="Penalty,extension,resubmission rules" meeting="false" start="2026-10-21" duration="3" complete="0" expand="true">
+            <depend id="19" type="2" difference="0" hardness="Strong"/>
+            <depend id="23" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="19" uid="c2be07f2d7784c74a46c88a641594002" name="moderation,Audit log" meeting="false" start="2026-10-24" duration="2" complete="0" expand="true">
+            <depend id="24" type="2" difference="0" hardness="Strong"/>
+            <depend id="25" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="20" uid="4b5fe9dde4064def9d3d479f1f37a39b" name="User interface" meeting="false" start="2026-10-23" duration="3" complete="0" expand="true">
+            <depend id="24" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="21" uid="11b13ef4b0b74b87a589dfee6c2a0106" name="CI pipeline" meeting="false" start="2026-10-21" duration="1" complete="0" expand="true"/>
+        <task id="22" uid="b732fc0fd16a45918cbbf835a09f4388" name="Test plan" meeting="false" start="2026-10-19" duration="2" complete="0" expand="true"/>
+        <task id="23" uid="2c9f1502ad1b45e9b5958892f84556a7" name="Unit and integration tests, coverage" meeting="false" start="2026-10-24" duration="3" complete="0" expand="true">
+            <depend id="26" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="24" uid="7929026bbefd4904a3019c3351b3a6d2" name="System and acceptance tests,defect log" meeting="false" start="2026-10-26" duration="3" complete="0" expand="true">
+            <depend id="26" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="25" uid="03c1b7b6fc8746d8b7f34f29a12f275e" name="Static analysis,metrics,code review" meeting="false" start="2026-10-26" duration="3" complete="0" expand="true"/>
+        <task id="26" uid="4bbbb0a0d6274536a4b40a1e4c82945f" name="milestone 3" meeting="true" start="2026-10-29" duration="0" complete="0" expand="true">
+            <depend id="28" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="28" uid="54749ef688ae4e81a92f32b02d15bd5f" name="UML deployment diagram, installation guide,user manuals" meeting="false" start="2026-10-29" duration="3" complete="0" expand="true">
+            <depend id="29" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="29" uid="5949188ac0ff4d3899c612c1db301a99" name="first release" meeting="true" start="2026-11-01" duration="0" complete="0" expand="true">
+            <depend id="30" type="2" difference="0" hardness="Strong"/>
+            <depend id="34" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="30" uid="32057f8f5380461298e3ba80908ced9c" name="CR1 impact analysis" meeting="false" start="2026-11-01" duration="1" complete="0" expand="true">
+            <depend id="31" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="31" uid="007eeaeabb3643c1b9ca51155c1214b5" name="update affected design, regression test + new tests" meeting="false" start="2026-11-02" duration="2" complete="0" expand="true">
+            <depend id="32" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="32" uid="a8ac2be142e94a6088526ac5a94334a1" name="re-implement" meeting="false" start="2026-11-04" duration="1" complete="0" expand="true">
+            <depend id="33" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="33" uid="85a3880a0864454f96727905b8fdd7bf" name="second release" meeting="true" start="2026-11-05" duration="0" complete="0" expand="true">
+            <depend id="35" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="34" uid="d9ee681d73184b52889227691848f7bc" name="professional,legal,ethical section" meeting="false" start="2026-11-01" duration="1" complete="0" expand="true"/>
+        <task id="35" uid="bd8503547a824af6a3aad5bef34bd3e1" name="Final report" meeting="false" start="2026-11-05" duration="1" complete="0" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="0" name="Tumelo Khosola" function="Default:0" contacts="khosola72@gmail.com" phone="63244955"/>
+    </resources>
+    <allocations>
+        <allocation task-id="0" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
