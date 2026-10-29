@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/Dell/Documents/CAPCOM/lms/build/tests/lms_tests_e3b0c442_tests.cmake")
+  include("C:/Users/Dell/Documents/CAPCOM/lms/build/tests/lms_tests_e3b0c442_tests.cmake")
+else()
+  add_test(lms_tests_NOT_BUILT lms_tests_NOT_BUILT)
+endif()
